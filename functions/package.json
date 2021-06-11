@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "start": "",
+    "vueify": "browserify -t vueify -e src/main.js -o build/build.js"
+  },
+  "dependencies": {
+    "firebase-admin": "~4.2.1",
+    "firebase-functions": "^0.5"
+  },
+  "private": true,
+  "devDependencies": {
+    "vueify": "^9.4.1"
+  }
+}

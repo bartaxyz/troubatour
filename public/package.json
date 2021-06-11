@@ -1,0 +1,22 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "vueify": "browserify -t vueify -e src/main.js -o build/build.js",
+    "stylus": "stylus styles/master.styl --out build/styles.css",
+    "stylus:watch": "stylus styles/master.styl --out build/styles.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "jade": "^1.11.0",
+    "stylus": "^0.54.5",
+    "vue": "^2.3.3",
+    "vueify": "^9.4.1"
+  }
+}
